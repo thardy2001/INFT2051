@@ -22,6 +22,7 @@ namespace XTranslator
         }
         async void text_to_speech(object sender, EventArgs e)
         {
+            outLabel.Text = txtInput.Text;
             if(txtInput.Text != null)
             {
                 await TextToSpeech.SpeakAsync(txtInput.Text);

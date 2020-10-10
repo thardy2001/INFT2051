@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\bin\Debug\netstandard2.0\XTranslator.dll">
       <PackagePath>XTranslator.dll</PackagePath>
-      <Modified>2020-10-10T02:21:39.660</Modified>
+      <Modified>2020-10-10T02:31:36.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tyler\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>

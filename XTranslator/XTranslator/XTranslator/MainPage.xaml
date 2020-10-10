@@ -8,6 +8,7 @@
     <StackLayout>
         <Editor x:Name="txtInput" Placeholder="Enter text here" HeightRequest="100" />
         <Button Text="Speak" Clicked="text_to_speech" />
+        <Label Text="Begin" x:Name="outLabel" />
     </StackLayout>
 
 </ContentPage>
