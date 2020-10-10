@@ -1,0 +1,14 @@
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\bin\Debug\netstandard2.0\XTranslator.deps.json
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\bin\Debug\netstandard2.0\XTranslator.dll
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\bin\Debug\netstandard2.0\ref\XTranslator.dll
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\bin\Debug\netstandard2.0\XTranslator.pdb
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\XTranslator.csprojAssemblyReference.cache
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\XTranslator.AssemblyInfoInputs.cache
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\XTranslator.AssemblyInfo.cs
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\XTranslator.csproj.CoreCompileInputs.cache
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\XTranslator.dll
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\ref\XTranslator.dll
+C:\Users\Tyler\Desktop\UON\Semester 2 2020\Mobile App Programming\Project\INFT2051\XTranslator\XTranslator\XTranslator\obj\Debug\netstandard2.0\XTranslator.pdb
