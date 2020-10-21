@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Test.Views.HomePage"
+             xmlns:vm="clr-namespace:Test.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:HomeViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+       
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label Text="Start translating now" FontSize="Title"/>
+                <Label Text="Select a language to translate from:" FontSize="Medium"/>
+                <Picker x:Name="LanguageText1" HorizontalOptions="FillAndExpand" Title="Language">
+                    <Picker.Items>
+                        <x:String>Auto-Detect</x:String>
+                        <x:String>English</x:String>
+                        <x:String>Japanese</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Editor Placeholder="Text for translation" AutoSize="TextChanges" />
+                <Label Text="Select a language to translate to:" FontSize="Medium"/>
+                <Picker x:Name="LanguageText2" HorizontalOptions="FillAndExpand" Title="Language">
+                    <Picker.Items>
+                        <x:String>Auto-Detect</x:String>
+                        <x:String>English</x:String>
+                        <x:String>Japanese</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Editor Text="Translated text" AutoSize="TextChanges" IsReadOnly="True" />
+                
+                <Button Margin="0,10,0,0" Text="Translate"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+                <Label FontSize="16" Padding="0,24,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="For more info go to the"/>
+                                <Span Text=" Help" FontAttributes="Bold"/>
+                                <Span Text=" page."/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
