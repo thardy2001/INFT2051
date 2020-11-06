@@ -978,24 +978,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NicSt\\.nuget\\packages\\": {},
+    "C:\\Users\\Tyler\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NicSt\\Documents\\UNI\\INFT2051\\Test\\Test\\Test.iOS\\Test.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.iOS\\Test.iOS.csproj",
       "projectName": "Test.iOS",
-      "projectPath": "C:\\Users\\NicSt\\Documents\\UNI\\INFT2051\\Test\\Test\\Test.iOS\\Test.iOS.csproj",
-      "packagesPath": "C:\\Users\\NicSt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NicSt\\Documents\\UNI\\INFT2051\\Test\\Test\\Test.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.iOS\\Test.iOS.csproj",
+      "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\NicSt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1009,8 +1009,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\NicSt\\Documents\\UNI\\INFT2051\\Test\\Test\\Test\\Test.csproj": {
-              "projectPath": "C:\\Users\\NicSt\\Documents\\UNI\\INFT2051\\Test\\Test\\Test\\Test.csproj"
+            "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {
+              "projectPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj"
             }
           }
         }

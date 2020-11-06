@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NBfmP4To0JcN/bLHO25QvqzHUtwbvwYrEp2X4Hfx2Qs3HfsEjClTt9HJIZUJ27BMEgvxXQ3xG9/aIlWuiKGe4g==",
+  "dgSpecHash": "ER5M+SQ7VfykR6awsRIfHUQuaxb1EB7TX2comLD51JrKunUlqZfSghiIrn6SB9IvmPFNqw27PCeV9a5zgNVL4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NicSt\\Documents\\UNI\\INFT2051\\Test\\Test\\Test.iOS\\Test.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.iOS\\Test.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\Tyler\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Tyler\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }
