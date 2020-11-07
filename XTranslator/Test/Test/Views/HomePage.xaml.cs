@@ -12,7 +12,7 @@ namespace Test.Views
     {
         string text = ""; // The text to be translated 
 
-        IDictionary<string, string> languages = new Dictionary<string, string>(){ // Convert between readable and required format 
+        IDictionary<string, string> languages = new Dictionary<string, string>(){
                 {"English", "en"},
                 {"Russian", "ru"},
                 {"Chinese (Simple)", "zh-CN"},
@@ -23,10 +23,9 @@ namespace Test.Views
                 {"Auto-Detect", "auto"}
         };
 
-        void EditorTextChanged(object sender, TextChangedEventArgs e) { Console.WriteLine("Text Updated"); text = e.NewTextValue;} // Update the text whenever a change occurs 
-        private void translateButton_Click(object sender, EventArgs e) // Tranlate the text when tranate button is pressed 
+        void EditorTextChanged(object sender, TextChangedEventArgs e) {text = e.NewTextValue;} // Update the text whenever a change occurs 
+        private void translateButton_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Button pressed");
             if(languages[(string)languageFrom.SelectedItem] == "auto"){
                 TranslateText(text, DetectLanguage(), languages[(string)languageTo.SelectedItem]);
             } else
@@ -35,22 +34,20 @@ namespace Test.Views
             }
             
         }
-        public string DetectLanguage() // detects the language typed in https://cloud.google.com/translate/docs/basic/detecting-language
+        public string DetectLanguage() // https://cloud.google.com/translate/docs/basic/detecting-language
         {
             TranslationClient client = TranslationClient.Create();
             var detection = client.DetectLanguage(text: text);
             return detection.Language;
         }
-        public string TranslateText(string t, string target, string source) // translates the given text https://cloud.google.com/translate/docs/basic/translating-text
+        public string TranslateText(string t, string target, string source) //https://cloud.google.com/translate/docs/basic/translating-text
         {
-            Console.WriteLine("Entered TranslateText()");
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             TranslationClient client = TranslationClient.Create();
             var response = client.TranslateText(
                 text: t,
                 targetLanguage: target, 
-                sourceLanguage: source);
-            Console.WriteLine(response.TranslatedText);
+                sourceLanguage: source);  
             translated.Text = response.TranslatedText;
             return response.TranslatedText;
         }
