@@ -64,3 +64,5 @@ C:\INFT2051\XTranslator\Test\Test\obj\Debug\netstandard2.0\Test.AssemblyInfo.cs
 C:\INFT2051\XTranslator\Test\Test\obj\Debug\netstandard2.0\Test.dll
 C:\INFT2051\XTranslator\Test\Test\obj\Debug\netstandard2.0\ref\Test.dll
 C:\INFT2051\XTranslator\Test\Test\obj\Debug\netstandard2.0\Test.pdb
+C:\INFT2051\XTranslator\Test\Test\obj\Debug\netstandard2.0\Test.csproj.CoreCompileInputs.cache
+C:\INFT2051\XTranslator\Test\Test\obj\Debug\netstandard2.0\XamlC.stamp
