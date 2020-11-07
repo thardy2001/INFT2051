@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj": {}
+    "C:\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj": {
+    "C:\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj",
+        "projectUniqueName": "C:\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj",
         "projectName": "Test.Android",
-        "projectPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj",
+        "projectPath": "C:\\INFT2051\\XTranslator\\Test\\Test.Android\\Test.Android.csproj",
         "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test.Android\\obj\\",
+        "outputPath": "C:\\INFT2051\\XTranslator\\Test\\Test.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {
-                "projectPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj"
+              "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {
+                "projectPath": "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Google.Cloud.Translation.V2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
@@ -54,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {
+    "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
+        "projectPath": "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\obj\\",
+        "outputPath": "C:\\INFT2051\\XTranslator\\Test\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -93,6 +97,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Google.Cloud.Translation.V2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

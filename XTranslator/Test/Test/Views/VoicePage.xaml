@@ -50,7 +50,7 @@
                     </Picker.Items>
                 </Picker>
 
-                <Editor Text="Translated text" AutoSize="TextChanges" IsReadOnly="True" x:Name="txtOutput" />
+                <Editor Text="你好" AutoSize="TextChanges" IsReadOnly="false" x:Name="txtOutput" />
 
                 <Button Margin="0,10,0,0" Text="Listen"
                         BackgroundColor="{StaticResource Primary}"

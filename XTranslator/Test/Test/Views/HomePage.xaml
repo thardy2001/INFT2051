@@ -25,26 +25,37 @@
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
                 <Label Text="Start translating now" FontSize="Title"/>
                 <Label Text="Select a language to translate from:" FontSize="Medium"/>
-                <Picker x:Name="LanguageText1" HorizontalOptions="FillAndExpand" Title="Language">
+                <Picker x:Name="languageFrom" HorizontalOptions="FillAndExpand" Title="Language">
                     <Picker.Items>
                         <x:String>Auto-Detect</x:String>
                         <x:String>English</x:String>
                         <x:String>Japanese</x:String>
+                        <x:String>Russian</x:String>
+                        <x:String>Chinese (Simple)</x:String>
+                        <x:String>Chinese (Traditional)</x:String>
+                        <x:String>Spanish</x:String>
+                        <x:String>German</x:String>
                     </Picker.Items>
                 </Picker>
-                <Editor Placeholder="Text for translation" AutoSize="TextChanges" />
+                <Editor x:Name="toTranslate" Placeholder="Text for translation" AutoSize="TextChanges" />
                 <Label Text="Select a language to translate to:" FontSize="Medium"/>
-                <Picker x:Name="LanguageText2" HorizontalOptions="FillAndExpand" Title="Language">
+                <Picker x:Name="languageTo" HorizontalOptions="FillAndExpand" Title="Language">
                     <Picker.Items>
-                        <x:String>Auto-Detect</x:String>
                         <x:String>English</x:String>
                         <x:String>Japanese</x:String>
+                        <x:String>Russian</x:String>
+                        <x:String>Chinese (Simple)</x:String>
+                        <x:String>Chinese (Traditional)</x:String>
+                        <x:String>Spanish</x:String>
+                        <x:String>German</x:String>
+                        
                     </Picker.Items>
                 </Picker>
-                <Editor Text="Translated text" AutoSize="TextChanges" IsReadOnly="True" />
+                <Label x:Name="translated" Text="Translated text" />
                 
                 <Button Margin="0,10,0,0" Text="Translate"
-                        Command="{Binding OpenWebCommand}"
+                        x:Name="translateButton"
+                        Command="TranslateText()"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
                 <Label FontSize="16" Padding="0,24,0,0">

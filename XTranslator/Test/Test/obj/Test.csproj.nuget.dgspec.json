@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {}
+    "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {
+    "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
+        "projectPath": "C:\\INFT2051\\XTranslator\\Test\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tyler\\Desktop\\UON\\Semester 2 2020\\Mobile App Programming\\Project\\INFT2051\\XTranslator\\Test\\Test\\obj\\",
+        "outputPath": "C:\\INFT2051\\XTranslator\\Test\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,6 +43,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Google.Cloud.Translation.V2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
